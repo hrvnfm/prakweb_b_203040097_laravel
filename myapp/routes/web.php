@@ -19,7 +19,8 @@ use App\Models\User;
 
 Route::get('/', function () {
     return view('home', [
-        "title" => "Home"
+        "title" => "Home",
+        'active' => 'categories'
     ]);
 });
 
@@ -28,7 +29,8 @@ Route::get('/about', function () {
         "title" => "About",
         "name" => "Hervin Fakhrul",
         "email" => "203040097@mail.unpas.ac.id",
-        "image" => "profile.jpg"
+        "image" => "profile.jpg",
+        'active' => 'categories'
     ]);
 });
 
