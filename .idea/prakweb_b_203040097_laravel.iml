@@ -9,6 +9,12 @@
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/itsgoingd/clockwork" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/cocur/slugify" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/cviebrock/eloquent-sluggable" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/public/storage" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/storage/app/post-images" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/storage/framework/cache/data/ee" />
+      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
