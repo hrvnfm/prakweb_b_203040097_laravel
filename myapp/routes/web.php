@@ -6,6 +6,8 @@ use Illuminate\Support\Facades\Route;
 use App\Models\Category;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\DashboardPostController;
+use App\Http\Controllers\AdminCategoryController;
+
 
 
 
@@ -65,4 +67,6 @@ Route::get('/dashboard', function () {
 
 Route::get('/dashboard/posts/checkSlug', [DashboardPostController::class, 'checkSlug']) ->middleware('auth');
 Route::resource('/dashboard/posts', DashboardPostController::class)->middleware('auth');
+
+Route::resource('/dashboard/categories', \App\Http\Controllers\AdminCategoryController::class)->except('show')->middleware('admin');
 
